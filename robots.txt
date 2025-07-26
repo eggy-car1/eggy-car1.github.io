@@ -1,23 +1,4 @@
 User-agent: *
-Allow: /
-
-# Disallow crawling of admin or private directories
-Disallow: /admin/
-Disallow: /private/
-Disallow: /*.log$
-
-# Allow crawling of important files
-Allow: /css/
-Allow: /js/
-Allow: /images/
-Allow: /*.html$
-Allow: /*.webp$
-Allow: /*.png$
-Allow: /*.jpg$
-Allow: /*.jpeg$
-Allow: /*.gif$
-Allow: /*.svg$
-
-# Sitemap location
-Sitemap: https://cookieclickerunblocked.b-cdn.net/sitemap.xml
-
+Disallow: /wp-admin/
+Allow: /wp-admin/admin-ajax.php
+Sitemap: https://eggy-car1.github.io/sitemap.xml
